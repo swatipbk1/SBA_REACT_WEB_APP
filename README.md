@@ -39,3 +39,12 @@ bash
 Copy code
 npm run dev
 
+# Usage
+Once the application is running, you can navigate to different sections using the navigation bar at the top. Each section corresponds to a specific category of news, such as Business, Entertainment, etc. Click on a section to view the top headlines for that category.
+
+# Credits
+This project uses the NewsAPI to fetch top headlines from ABP News.
+
+# License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
