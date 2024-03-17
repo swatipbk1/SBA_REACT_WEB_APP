@@ -6,3 +6,19 @@
   z-index: 1000; /* Ensure navbar stays on top */
   background-color:rgb(4, 8, 84);
 
+}
+
+.navbar-brand {
+  font-size: 1.5rem; /* Adjust font size as needed */
+  font-weight: bold;
+  color:grey;
+  text-transform: uppercase; /* Convert text to uppercase */
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center items vertically */
+  width: 70%; /* Adjust width as needed */
+  list-style-type: none; /* Remove bullets from list items */
+}
