@@ -30,3 +30,17 @@
 .form-check {
   margin-right: 1rem; /* Add space between dark mode switch and nav items */
 }
+
+.form-check-label {
+  margin-left: 0.5rem; /* Adjust the space between the checkbox and label */
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    width: 100%; /* Make navbar full width on smaller screens */
+  }
+}
+
+.navbar-nav .nav-link {
+  color: #fff; /* Set text color to white */
+}
