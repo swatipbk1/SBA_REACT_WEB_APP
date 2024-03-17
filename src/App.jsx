@@ -11,7 +11,11 @@ const App = () => {
         <h1 style={{ fontWeight: 'bold', marginBottom: '10px' }}>Top Headlines</h1>
         <h2 style={{ fontStyle: 'italic', color: '#555', marginTop: '0' }}>from ABP News</h2>
       </div>
-   
+      <Routes>
+        <Route path="/" element={<News category="general" />} />
+        <Route path="/business" element={<News category="business" />} />
+        <Route path="/entertainment" element={<News category="entertainment" />} />
+        
   );
 }
 
