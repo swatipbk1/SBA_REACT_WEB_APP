@@ -9,3 +9,11 @@ const rootContainer = document.getElementById('root');
 // Check if a root has already been created for the container
 const existingRoot = rootContainer._reactRootContainer;
 
+// If a root already exists, render your components on the existing root
+if (existingRoot) {
+  existingRoot.render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  );
+
