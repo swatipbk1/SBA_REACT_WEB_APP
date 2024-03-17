@@ -1,13 +1,10 @@
 # ABPNEWS React App
-
 ABPNEWS is a React application that displays top headlines from ABP News and allows users to navigate through different sections like Business, Entertainment, Health, Science, Sports, and Technology.
 
 # Description
-
 ABPNEWS React App is a news aggregator built using React. It fetches top headlines from ABP News API and categorizes them into different sections, making it easy for users to browse news articles based on their interests. The application provides a user-friendly interface with navigation links to different sections and allows users to read more about each article.
 
 # Features
-
 Fetches top headlines from ABP News API.
 Categorizes news articles into different sections such as Business, Entertainment, Health, Science, Sports, and Technology.
 Allows users to navigate between different sections using navigation links.
@@ -22,7 +19,6 @@ CSS3
 ABP News API
 
 # Installation
-
 To run the ABPNEWS React App locally, follow these steps:
 
 Clone the GitHub repository:
@@ -33,3 +29,13 @@ Navigate to the project directory:
 bash
 Copy code
 cd abpnews-react-app
+Install dependencies using npm:
+Copy code
+npm install
+Start the development server:
+npm install vite react react-dom @vitejs/plugin-react
+Start the development server:
+bash
+Copy code
+npm run dev
+
