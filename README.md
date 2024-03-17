@@ -20,3 +20,16 @@ JavaScript (ES6+)
 HTML5
 CSS3
 ABP News API
+
+# Installation
+
+To run the ABPNEWS React App locally, follow these steps:
+
+Clone the GitHub repository:
+bash
+Copy code
+git clone https://github.com/swatipbk1/SBA_REACT_WEB_APP.git
+Navigate to the project directory:
+bash
+Copy code
+cd abpnews-react-app
