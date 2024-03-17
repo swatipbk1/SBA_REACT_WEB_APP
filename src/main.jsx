@@ -16,4 +16,12 @@ if (existingRoot) {
       <App />
     </React.StrictMode>
   );
-
+} else {
+  // Otherwise, create a new root and render your components
+  const root = createRoot(rootContainer);
+  root.render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  );
+}
