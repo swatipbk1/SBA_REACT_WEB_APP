@@ -22,3 +22,11 @@
   width: 70%; /* Adjust width as needed */
   list-style-type: none; /* Remove bullets from list items */
 }
+
+.nav-item {
+  margin: 0 0.5rem; /* Add equal space around nav items */
+}
+
+.form-check {
+  margin-right: 1rem; /* Add space between dark mode switch and nav items */
+}
