@@ -1,4 +1,3 @@
-
 /* Header Navigation styles */
 
 .navbar {
@@ -45,4 +44,27 @@
   transition: color 0.3s; /* Smooth transition for color change */
 }
 
+.nav-item a:hover {
+  color: #007bff; /* Change color on hover */
+}
 
+/* Divider between sections */
+.nav-item:not(:last-child) {
+  border-right: 1px solid #fff; /* Add a vertical divider between nav items */
+  padding-right: 10px; /* Adjust spacing between items */
+}
+
+.form-check {
+  margin-right: 1rem; /* Add space between dark mode switch and nav items */
+}
+
+.form-check-label {
+  margin-left: 0.5rem; /* Adjust the space between the checkbox and label */
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    justify-content: space-between; /* Space out items evenly on smaller screens */
+    padding: 0; /* Remove horizontal padding */
+  }
+}
