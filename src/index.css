@@ -1,4 +1,3 @@
-
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -62,4 +61,27 @@ button:focus-visible {
   }
   a:hover {
     color: #747bff;
- 
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+/* App.css */
+
+/* Style for top headlines section */
+.top-headlines {
+  text-align: center;
+  padding-top: 150px;
+  padding-bottom: 40px;
+}
+
+.top-headlines h1 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.top-headlines h2 {
+  font-style: italic;
+  color: red;
+  margin-top: 0;
+}
