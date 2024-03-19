@@ -1,6 +1,8 @@
 
 
-# CNN-NEWS APP - One spot solution to tailored to variety of customer needs, redefines news consumption, covering Business, Entertainment, Health, Science, Sports, and Technology. Personalized, reliable, and accessible anytime, anywhere. Join us and stay ahead of the curve.
+# Introducing the CNN News App - Your One-Stop Destination for Tailored News
+
+Experience a revolution in news consumption with the CNN News App. Covering Business, Entertainment, Health, Science, Sports, and Technology, we redefine how you stay informed. Enjoy personalized, reliable updates accessible anytime, anywhere. Join us and stay ahead of the curve.
 A web application for displaying real-time news headlines from various categories.
 
 # Table of Contents
