@@ -43,4 +43,28 @@ const Footer = () => {
               <p className="text-center">
                 <a href="#">Watch</a> | 
                 <a href="#">Listen</a> | 
-             
+                <a href="#">Live TV</a> | 
+                <a href="#">FOLLOW CNN</a> | 
+                <a href="#">Sign in</a> | 
+                <a href="#">Terms of Use</a> | 
+                <a href="#">Privacy Policy</a> | 
+                <a href="#">Do Not Sell Or Share My Personal Information</a> | 
+                <a href="#">Ad Choices</a> | 
+                <a href="#">Accessibility & CC</a> | 
+                <a href="#">About</a> | 
+                <a href="#">Newsletters</a> | 
+                <a href="#">Transcripts</a> | 
+                <br />
+                &copy; 2024 Cable News Network. A Warner Bros. Discovery Company. All Rights Reserved.
+                <br />
+                CNN Sans ™ & © 2016 Cable News Network.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
