@@ -1,6 +1,9 @@
-# CNN-NEWS React App
+
+
+# CNN-NEWS React App - One spot solution to tailored to variety of customer needs, redefines news consumption, covering Business, Entertainment, Health, Science, Sports, and Technology. Personalized, reliable, and accessible anytime, anywhere. Join us and stay ahead of the curve.
 A web application for displaying real-time news headlines from various categories.
-Table of Contents
+
+# Table of Contents
 Features
 Installation
 Usage
@@ -16,24 +19,25 @@ Dynamic Pagination: Navigate through multiple pages of news articles for each ca
 Responsive Design: Responsive layout to ensure optimal viewing experience across various devices.
 Error Handling: Graceful handling of errors, ensuring smooth user experience even in adverse conditions.
 Styling: Enhanced visual appearance with CSS styling for navigation, news cards, headers, and footers.
+Routing: Seamless navigation between different sections of the application using React Router.
+Component-Based Architecture: Modular structure with reusable components for improved code organization and maintainability.
+API Integration: Integration with the News API to fetch real-time news data from reliable sources.
+Enhanced User Performance
+LoadingBar: Indicates loading progress to enhance the user experience.
+InfiniteScroll: Enables infinite scrolling behavior for seamless content loading.
+These features are incorporated to improve user engagement and performance within the application.
+
 
 
 # Installation
 Clone the GitHub repository:
-bash
-Copy code
 git clone https://github.com/swatipbk1/SBA_REACT_WEB_APP.git
 Navigate to the project directory:
-bash
-Copy code
 Install dependencies using npm:
-Copy code
 npm install
 Start the development server:
 npm install vite react react-dom @vitejs/plugin-react
 Start the development server:
-bash
-Copy code
 npm run dev
 
 # Usage
@@ -49,48 +53,13 @@ Create a .env file in the root directory of the project and add the following en
 REACT_APP_API_KEY=714ef9b8a6ef47d19b4bda6f4f0d100f
 
 
-React News App
-A web application for displaying real-time news headlines from various categories.
-
-Table of Contents
-Features
-Installation
-Usage
-API Key Setup
-Environment Variables
-Dependencies
-Contributing
-License
-Features
-Category-Based News Feed: View news articles categorized under general, business, entertainment, health, science, sports, and technology.
-Dynamic Pagination: Navigate through multiple pages of news articles for each category.
-Responsive Design: Responsive layout to ensure optimal viewing experience across various devices.
-Error Handling: Graceful handling of errors, ensuring smooth user experience even in adverse conditions.
-Styling: Enhanced visual appearance with CSS styling for navigation, news cards, headers, and footers.
-Routing: Seamless navigation between different sections of the application using React Router.
-Component-Based Architecture: Modular structure with reusable components for improved code organization and maintainability.
-API Integration: Integration with the News API to fetch real-time news data from reliable sources.
-Enhanced User Performance
-LoadingBar: Indicates loading progress to enhance the user experience.
-InfiniteScroll: Enables infinite scrolling behavior for seamless content loading.
-These features are incorporated to improve user engagement and performance within the application.
-
- # Installation
-Clone the repository:
-
-git clone  https://github.com/swatipbk1/SBA_REACT_WEB_APP.git
-Navigate into the project directory.
- Install dependencies using npm install
- Start the development server: npm install vite react react-dom @vitejs/plugin-react 
- Start the development server: npm run dev
-
-
 # Dependencies
 react: A JavaScript library for building user interfaces.
 react-dom: Provides DOM-specific methods that can be used at the top level of your React application.
 @vitejs/plugin-react: Official Vite plugin for React support.
 react-router-dom
 dotenv
+Bootstrap
 react-top-loading-bar: Provides a loading bar component for indicating loading progress.
 npm install react-top-loading-bar
 react-infinite-scroll-component: Facilitates infinite scrolling behavior to load content dynamically.
