@@ -41,7 +41,7 @@
     text-overflow: ellipsis; /* Add ellipsis for overflow text */
   }
   
-  /* Target the "Read More" button */
+
   /* Target the "Read More" button */
   .card a.btn-primary {
     background-color: rgb(200, 36, 36); /* Set a bright red color */
