@@ -4,8 +4,8 @@ import "./News.css";
 import spinner from "./Spinner.gif";
 
 // // // Defined API key as a constant
-// const API_KEY = "714ef9b8a6ef47d19b4bda6f4f0d100f";
-const API_KEY = import.meta.env.VITE_API_KEY;
+const API_KEY = "714ef9b8a6ef47d19b4bda6f4f0d100f";
+// const API_KEY = import.meta.env.VITE_API_KEY;
 
 
 const News = ({ category }) => { // Receive category prop
