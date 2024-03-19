@@ -3,10 +3,13 @@ import PropTypes from "prop-types"; // Import PropTypes
 import "./News.css";
 import spinner from "./Spinner.gif";
 
-// // // Defined API key as a constant
-// const API_KEY = "714ef9b8a6ef47d19b4bda6f4f0d100f";
 const API_KEY = import.meta.env.VITE_API_KEY;
 
+// Function to strip HTML tags from a string
+function stripHTML(html) {
+  let doc = new DOMParser().parseFromString(html, 'text/html');
+  return doc.body.textContent || "";
+}
 
 const News = ({ category }) => { // Receive category prop
   const [myNews, setMyNews] = useState([]);
@@ -76,7 +79,9 @@ const News = ({ category }) => { // Receive category prop
                 alt="Article"
               />
               <div className="card-body">
-                <h5 className="card-title">{article.author || "Anonymous"}</h5>
+                <h5 className="card-title">
+                  {article.author || (article.source.name.startsWith('https') ? "Anonymous" : article.source.name)}
+                </h5>
                 <p className="card-text">{article.title}</p>
                 <a
                   href={article.url}
