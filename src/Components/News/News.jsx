@@ -92,4 +92,29 @@ const News = ({ category }) => { // Receive category prop
           ))}
           {/* Pagination */}
           <div className="pagination">
-       
+            {[...Array(Math.ceil(myNews.length / articlesPerPage)).keys()].map(
+              (number) => (
+                <button
+                  key={number}
+                  onClick={() => paginate(number + 1)}
+                  className={`btn ${
+                    number + 1 === currentPage ? "btn-primary" : "btn-secondary"
+                  }`}
+                >
+                  {number + 1}
+                </button>
+              )
+            )}
+          </div>
+        </>
+      )}
+    </div>
+  );
+};
+
+// Add prop type validation
+News.propTypes = {
+  category: PropTypes.string.isRequired,
+};
+
+export default News;
