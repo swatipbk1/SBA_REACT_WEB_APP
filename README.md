@@ -1,6 +1,6 @@
 
 
-# CNN-NEWS React App - One spot solution to tailored to variety of customer needs, redefines news consumption, covering Business, Entertainment, Health, Science, Sports, and Technology. Personalized, reliable, and accessible anytime, anywhere. Join us and stay ahead of the curve.
+# CNN-NEWS APP - One spot solution to tailored to variety of customer needs, redefines news consumption, covering Business, Entertainment, Health, Science, Sports, and Technology. Personalized, reliable, and accessible anytime, anywhere. Join us and stay ahead of the curve.
 A web application for displaying real-time news headlines from various categories.
 
 # Table of Contents
