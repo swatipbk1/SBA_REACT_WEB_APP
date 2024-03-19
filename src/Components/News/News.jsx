@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types"; // Import PropTypes
 import "./News.css";
@@ -58,3 +57,39 @@ const News = ({ category }) => { // Receive category prop
     setCurrentPage(pageNumber);
     handleFetchData(); // Fetch data for the new page
   };
+
+  return (
+    <div className="mainDiv">
+      {/* Conditionally render spinner while loading */}
+      {loading ? (
+        <img src={spinner} alt="Loading..." />
+      ) : (
+        // Render articles when data is loaded
+        <>
+          {currentArticles.map((article, index) => (
+            <div className="card" key={index}>
+              <img
+                src={
+                  article.urlToImage ||
+                  "https://via.placeholder.com/300x200?text=Image+Not+Available"
+                }
+                alt="Article"
+              />
+              <div className="card-body">
+                <h5 className="card-title">{article.author || "Anonymous"}</h5>
+                <p className="card-text">{article.title}</p>
+                <a
+                  href={article.url}
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={handleFetchData} // Call handleFetchData when "Read More" is clicked
+                >
+                  Read More
+                </a>
+              </div>
+            </div>
+          ))}
+          {/* Pagination */}
+          <div className="pagination">
+       
