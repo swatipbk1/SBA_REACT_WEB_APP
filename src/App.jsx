@@ -2,9 +2,10 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './Components/Navigation/Navigation';
 import News from './Components/News/News';
-import Footer from './Components/Footer/Footer'; // Import Footer component
-import './App.css'; // Import CSS file
-import LoadingBar from 'react-top-loading-bar';
+import Footer from './Components/Footer/Footer';
+import NotFoundPage from './Components/PageNotFound/NotFoundPage'; // Import NotFoundPage component
+import './App.css';
+
 
 const App = () => {
   return (
@@ -23,6 +24,9 @@ const App = () => {
           <Route path="/science" element={<News category="science" />} />
           <Route path="/sports" element={<News category="sports" />} />
           <Route path="/technology" element={<News category="technology" />} />
+          
+          {/* Page Not Found Route */}
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
         <Footer />
       </div>

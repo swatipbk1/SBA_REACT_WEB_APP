@@ -7,6 +7,7 @@ Experience a revolution in news consumption with the CNN News App. Covering Busi
 
 # Table of Contents
 Features
+Navigating to Page Not Found
 Installation
 Usage
 API Key Setup
@@ -30,6 +31,16 @@ LoadingBar: Indicates loading progress to enhance the user experience.
 InfiniteScroll: Enables infinite scrolling behavior for seamless content loading.
 These features are incorporated to improve user engagement and performance within the application.
 
+
+## Navigating to Page Not Found
+
+To navigate to the Page Not Found route, follow these steps:
+
+1. Attempt to access a non-existent route or URL within the application.
+2. You will be automatically redirected to the Page Not Found route.
+3. Alternatively, you can manually enter the URL for the Page Not Found route in the browser address bar: `/404` or `/not-found`.
+
+Upon reaching the Page Not Found route, you will see a custom-designed page indicating that the requested page does not exist.
 
 
 # Installation
