@@ -3,7 +3,7 @@
 # Introducing the CNN News App - Your One-Stop Destination for Tailored News
 
 Experience a revolution in news consumption with the CNN News App. Covering Business, Entertainment, Health, Science, Sports, and Technology, we redefine how you stay informed. Enjoy personalized, reliable updates accessible anytime, anywhere. Join us and stay ahead of the curve.
-A web application for displaying real-time news headlines from various categories.
+
 
 # Table of Contents
 Features
@@ -16,6 +16,7 @@ Credits
 License
 
 # Features
+A web application for displaying real-time news headlines from various categories.
 Category-Based News Feed: View news articles categorized under general, business, entertainment, health, science, sports, and technology.
 Dynamic Pagination: Navigate through multiple pages of news articles for each category.
 Responsive Design: Responsive layout to ensure optimal viewing experience across various devices.
